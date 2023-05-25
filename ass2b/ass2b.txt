@@ -1,0 +1,25 @@
+Install docker desktop
+use vs code as text editor
+open folder(smallcase) example. partb
+make two files
+also add extension docker(by microsoft)
+
+1.Dockerfile (no extension)
+-> FROM node:alpine
+   COPY . /partb
+   CMD node /partb/gaurav.js
+   
+2. gaurav.js
+-> console.log("kahihi takaychay ani repeat karyachi hich line 2-3 vela")   
+
+Terminal
+
+->  docker --version (to check the version of docker)
+    node gaurav.js (to run file)
+	docker build -t partb . (dont forget to give dot at the end)(to create container)
+	docker images  (to view images)(here we can see the tags, repository ,time etc)
+	
+	
+docker - shipping, developement of application in loosely isolated environment, we can run multiple containers at a time. Other developers use image id to make changes in the project and debug
+	
+	

@@ -1,0 +1,12 @@
+create index.html
+add cdn links below title
+
+
+
+jquery - light weight js library
+         html dom manipulation
+         ajax event methods
+         jquery wraps complicate things into single line of code
+        eg. $(selector).action()
+            $("p").hide()
+         hides all paragraph tags

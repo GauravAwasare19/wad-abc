@@ -1,0 +1,13 @@
+git .init
+  (initialize repo)
+git add .
+  (adding files)
+git status
+  (checking if any file is not added)
+git remote add origin "https//..."
+  (adding origin of repository of github)
+git commit -m "first commit"
+  (commiting the files)
+git push -u origin main
+  (adding the repo)
+
